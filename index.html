@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Movie Tickets</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Movie</h1>
+
+      <div class="row">
+
+          <h2></h2>
+            <form id="movie-ticket">
+
+              <select class="form-control" id="movieName" style="width:450px">
+                <option value="star wars">star wars</option>
+                <option value="superman">superman</option>
+                <option value="batman">batman</option>
+                <option value="spiderman">spiderman</option>
+              </select>
+
+      </br>
+      <select class="form-control" id="movieTime" style="width:450px">
+        <option value="morning">morning</option>
+        <option value="aftersnoon">aftersnoon</option>
+        <option value="night">night</option>
+          </select>
+
+
+      </br>
+      <select class="form-control" id="movieAge" style="width:450px">
+        <option value="0">18</option>
+        <option value="1">21</option>
+
+          </select>
+</br>
+      <button type="submit" class="btn-primary">confirm</button>
+  </form>
+
+        </div>
+        <div class="col-md-6">
+
+          <div id="show-price">
+            <h2></h2>
+
+            <p>moive name: <span class="movie-name"></span></p>
+            <p>time: <span class="movie-time"></span></p>
+            <p>age: <span class="movie-age"></span></p>
+            <p>price: <span class="movie-price"></span></p>
+
+
+            </ul>
+          </div>
+
+
+        </div>
+
+    </div>
+  </body>
+</html>
